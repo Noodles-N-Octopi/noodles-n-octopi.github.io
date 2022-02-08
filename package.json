@@ -1,7 +1,6 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
-  "private": true,
+  "name": "noodles-n-octopi-site",
+  "version": "0.1.0",
   "scripts": {
     "build": "hexo deploy",
     "clean": "hexo clean",
@@ -26,5 +25,26 @@
   },
   "devDependencies": {
     "push-dir": "^0.4.1"
-  }
+  },
+  "description": "The noodles &amp; octopi site! This is our site basically. [Visit it?](https://noodles-and-octopi.github.io)",
+  "main": "hexo server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noodles-N-Octopi/noodles-n-octopi.github.io.git"
+  },
+  "keywords": [
+    "Cool",
+    "Site",
+    "Static",
+    "Hexo",
+    "Netlify",
+    "Github",
+    "pages"
+  ],
+  "author": "TheBeeBoi, Danna, Spookto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Noodles-N-Octopi/noodles-n-octopi.github.io/issues"
+  },
+  "homepage": "https://github.com/Noodles-N-Octopi/noodles-n-octopi.github.io#readme"
 }
