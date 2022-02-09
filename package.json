@@ -6,7 +6,7 @@
     "clean": "hexo clean",
     "server": "hexo server",
     "deploy": "npm run build",
-    "push": "git add . && git commit && rm -rf public && npm run build && npm i -D&&push-dir --dir=\"public\" --branch=\"gh-pages\""
+    "push": "git add . && git commit && rm -rf public && npm run build && npm i -D&&push-dir --dir=\"public\" --branch=\"gh_pages\""
   },
   "hexo": {
     "version": "6.0.0"
